@@ -68,8 +68,7 @@ font-family: 'Raleway', sans-serif;
 3) Cache DOM elements
    1) Message place
    2) Play again button
-   3) Game board
-   4) column buttons / markers
+   3) column buttons / markers
 
 4) Upon loading the app should:
   4.1) Initialize the state variables
@@ -82,17 +81,17 @@ font-family: 'Raleway', sans-serif;
     - Do no render the Play again button on first view
   4.3) Wait for the user to interact
 
-5) Handle a player clicking a column button
+1) Handle a player clicking a column button
    1) update board array with player move
    2) Update the turn var
    3) Check for a winner
    4) Re-render the board with the player move
 
-6) Handle a player clicking the replay button
+2) Handle a player clicking the replay button
    1) Reset the state vars
    2) Render the board
 
-7) Check for a winner
+3) Check for a winner
    1) check for 4 in a row
    2) offsets vertical win I don't want to move the column 0, I want to move down in my rows -1
 
